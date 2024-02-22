@@ -40,3 +40,23 @@ while chosen_number != 4:
 
 if chosen_number == 4:
         print("Goodbye!")
+
+
+
+
+      
+
+
+
+
+
+
+
+    
+    
+
+
+    
+    
+    
+
