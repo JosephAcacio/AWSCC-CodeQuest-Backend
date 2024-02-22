@@ -1,13 +1,13 @@
-print("Options");
-print("1. Add item to the shopping list")
-print("2. View shopping list");
-print("3. Remove item from the shopping list");
-print("4. Quit")
+    print("Options");
+    print("1. Add item to the shopping list")
+    print("2. View shopping list");
+    print("3. Remove item from the shopping list");
+    print("4. Quit")
 
-shopping_list = [];
+    shopping_list = [];
 
-chosen_number = int(input("\nEnter the number of your choice: "));
-while chosen_number != 4:
+    chosen_number = int(input("\nEnter the number of your choice: "));
+    while chosen_number != 4:
 
     if (chosen_number == 1):
             new = input("Enter the item you want to add: ");
@@ -38,5 +38,5 @@ while chosen_number != 4:
 
     chosen_number = int(input("\nEnter the number of your choice: "));
 
-if chosen_number == 4:
+    if chosen_number == 4:
         print("Goodbye!")
